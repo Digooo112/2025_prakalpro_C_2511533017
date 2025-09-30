@@ -1,0 +1,20 @@
+package Pekan4;
+
+import java.util.Scanner;
+
+public class Latfl1 {
+
+	public static void main(String[] args) {
+		double IPK;
+		Scanner input=new Scanner(System.in);
+		System.out.print("input IPK Anda = ");
+		IPK=input.nextDouble();
+		input.close();
+		if (IPK>2.75) {
+			System.out.println("Anda Lulus Sangat Memuskan dengan IPK "+ IPK);
+		
+		}
+
+	}
+
+}
