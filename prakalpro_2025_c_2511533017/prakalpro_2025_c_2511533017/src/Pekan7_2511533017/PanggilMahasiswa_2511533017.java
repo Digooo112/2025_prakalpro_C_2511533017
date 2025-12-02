@@ -5,7 +5,7 @@ public class PanggilMahasiswa_2511533017 {
 	public static void main(String[] args) {
 		Mahasiswa_2511533017 a= new Mahasiswa_2511533017();
 		a.setNim(23532);
-		a.setNama("Rahmat");
+		a.setNama("Digo");
 		System.out.println(a.getNim());
 		System.out.println(a.getNama());
 		a.Cetak();
